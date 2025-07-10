@@ -1,0 +1,31 @@
+#下线后多少分钟内同IP免登录
+#每日0点失效，最长时间不超过24小时
+#若设置为0则不限时间
+max_time: 120
+
+#自动登录是否可用于OP账号
+useon_op: true
+
+#滞后执行，进入游戏后延迟执行自动登录
+#通常不需要修改此项，若与其他插件冲突可尝试调高此值
+#单位(tick)，1s为20tick
+lagging_enabled: 5
+
+#启用异地登录提醒
+useaddress_alert: true
+
+#自动登录提醒方式 
+#tltle-全屏文字
+#message-普通聊天框消息
+#none-禁用提醒，插件不会给玩家发送任何消息
+message_type: title
+
+#登录插件的登录指令
+#如/login则填入login，/L则填入L
+#通常不需要修改此项，默认使用/l和/login
+login_command: "login"
+
+prefix: "&f[&aLoginManager&f] "
+success_login: "&a已为您自动登录"
+address_change: "&c地址变更，自动登录取消"
+time_out: "&c自动登录已取消"

@@ -1,0 +1,10 @@
+name: LoginManager
+author: nanfans
+version: 1.34
+main: org.nanfans.LoginManager
+commands:
+  LoginManager:
+    description: 插件管理权限
+    usage: /<command>
+    permission: loginmanager.admin
+    permission-message: §c您没有LoginManager的控制权限
