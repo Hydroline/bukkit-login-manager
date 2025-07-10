@@ -50,10 +50,6 @@
 
 - `loginmanager.admin` - 插件管理权限（默认：OP）
 
-## 版本
-
-当前版本：1.34
-
 ## 作者
-
-nanfans
+* [nanfans](https://github.com/NanFans)（原作者）
+* [AurLemon](https://github.com/AurLemon)（二次修改）
